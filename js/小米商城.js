@@ -458,7 +458,7 @@ function get() {
                         console.log(response);
                     })
                     alert('删除成功')
-                    shopcarNums.innerHTML = a.length - 1;
+                    shopcarNums.innerHTML =shopcarNums.innerHTML - 1;
                 }
             })
             buy[i].addEventListener('click', function () {
@@ -482,7 +482,7 @@ function get() {
                         console.log(response);
                     })
                     alert('购买成功');
-                    shopcarNums.innerHTML = a.length - 1;
+                    shopcarNums.innerHTML =shopcarNums.innerHTML - 1;
                 }
             })
         }
